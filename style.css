@@ -1,7 +1,20 @@
 *{
     background-color: rgb(76, 130, 223); 
 }
-
+/* navbar styling */
+.nav_bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.nav_bar li{
+    display: inline;
+    margin-right: 20px;
+}
+.navbar a {
+    text-decoration: none;
+    color: #fff; 
+  }
 /* top image stylling */
 .img_top{
     width: 1520px;
