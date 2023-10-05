@@ -1,19 +1,26 @@
-*{
+body{
     background-color: rgb(76, 130, 223); 
 }
 /* navbar styling */
 .nav_bar{
     list-style-type: none;
-    margin: 0;
     padding: 0;
+    margin: 0;
+    text-align: center;
 }
-.nav_bar li{
+li{
     display: inline;
-    margin-right: 20px;
 }
-.navbar a {
-    text-decoration: none;
+.nav{
+    width: 100%;
+    overflow: auto;
+}
+ a {
+    padding: 10px;
     color: #fff; 
+    font-size: 30px;
+    text-decoration-line: none;
+    font-family: 'Amatic SC', cursive;
   }
 /* top image stylling */
 .img_top{
@@ -21,6 +28,7 @@
     height: 400px;
     margin-left: -1%;
     object-fit: cover;
+
 }
 /* styling container to flex row the images */
 .container{
@@ -42,7 +50,14 @@
 .gallery{
    margin: 10px;    
 }
-
+/* styling the calendar */
+iframe{
+    border-radius: 2%;
+    width: 425px;
+    height: 340px;
+    object-fit: cover;
+    filter: invert(.9) saturate(0.5) hue-rotate(145deg);
+}
 /* The location gallery settings to make it row */
 .img_locations{
     display: flex;
@@ -64,4 +79,10 @@
 /* setting the width of the img when hovering */
 .img_gallery_location:hover{
     width: 400px;
+}
+/* styling the footer */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
