@@ -3,10 +3,11 @@ body{
 }
 /* navbar styling */
 .nav_bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     list-style-type: none;
     padding: 0;
-    margin: 0;
-    text-align: center;
 }
 li{
     display: inline;
@@ -15,41 +16,63 @@ li{
     width: 100%;
     overflow: auto;
 }
- a {
+a{
     padding: 10px;
     color: #fff; 
     font-size: 30px;
     text-decoration-line: none;
     font-family: 'Amatic SC', cursive;
-  }
+}
+a:hover{
+    color: #7797f7;
+
+}
 /* top image stylling */
 .img_top{
-    width: 1520px;
+    width: 1300px;
     height: 400px;
-    margin-left: -1%;
     object-fit: cover;
-
+    margin-left: 7%;
+    border: 8px solid;
+    padding: 0;
+    border-image: repeating-linear-gradient(to bottom right, #33475b, #7797f7, #FF77CC, rgb(255, 122, 89)) 20;  
+}
+/* discover text styling */
+.discovertext{
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-family: 'Amatic SC', cursive;
+    text-transform: bold;
+    font-size: 30px;
+    margin-top: 5%;
 }
 /* styling container to flex row the images */
 .container{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .gallery img{
     width: 340px;
     height: auto;
-    border: 10px solid white;
-    border-width: 2px 4px;
-    border-radius: 40px;
+    border: 10px solid rgb(255, 255, 255);
+    border-width: 44px 10px ;
+    border-radius: 10px;
 }
 /* text style */
 .description{
     text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: #FF77CC;
 }
 /* styling the holy sites gallery  */
 .gallery{
    margin: 10px;    
 }
+/* styling the calendar text */
+
 /* styling the calendar */
 iframe{
     border-radius: 2%;
