@@ -72,8 +72,20 @@ a:hover{
    margin: 10px;    
 }
 /* styling the calendar text */
-
+.calendar{
+    display: block;
+    margin-left: 2%;
+    margin-top: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: #ffef77;
+}
 /* styling the calendar */
+.CalendarWindow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 iframe{
     border-radius: 2%;
     width: 425px;
@@ -81,10 +93,21 @@ iframe{
     object-fit: cover;
     filter: invert(.9) saturate(0.5) hue-rotate(145deg);
 }
+
+/* styling the location text */
+.locationstext{
+    display: block;
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+    color: #ffa977;
+}
 /* The location gallery settings to make it row */
 .img_locations{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 /* styling the images */
 .img_gallery_location{
@@ -94,6 +117,7 @@ iframe{
     border-radius: 40px;
     margin-right: 10px;
     cursor: pointer;
+    border: 2px solid rgb(226, 255, 249);
 }
 /* making the transion for the img in and out */
 .img_gallery_location{
@@ -105,6 +129,7 @@ iframe{
 }
 /* styling the footer */
 footer{
+    margin-top: 5%;
     display: flex;
     flex-direction: row;
     justify-content: center;
