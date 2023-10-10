@@ -51,6 +51,7 @@ a:hover{
 .container{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .gallery img{
@@ -88,7 +89,7 @@ a:hover{
 }
 iframe{
     border-radius: 2%;
-    width: 425px;
+    width: 800px;
     height: 340px;
     object-fit: cover;
     filter: invert(.9) saturate(0.5) hue-rotate(145deg);
